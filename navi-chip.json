@@ -1,0 +1,42 @@
+{
+  "description": "A password & hash lab companion for Apex: identify hashes by shape, crack lab-provided hashes with a built-in wordlist, and learn strength from entropy and crack times \u2014 standard library only.",
+  "entry": "root.py",
+  "files": [
+    "root.py",
+    "app_hashlab/__init__.py",
+    "app_hashlab/core.py",
+    "app_hashlab/crack.py",
+    "app_hashlab/identify.py",
+    "app_hashlab/md4.py",
+    "app_hashlab/saltlab.py",
+    "app_hashlab/strength.py",
+    "app_hashlab/wordlist.py"
+  ],
+  "format": "navi-chip/1",
+  "name": "Navi Hashlab",
+  "output": "Navi Hashlab: name that hash, crack the lab's hashes, and learn why passwords fall \u2014 run hashlab --test to watch it prove itself.",
+  "version": "1.0.0",
+  "glyph": "hash",
+  "icon": [
+    "....................",
+    "......oooooo........",
+    "....oo######oo......",
+    "...o##########o.....",
+    "..o####oooo####o....",
+    "..o###o....o###o....",
+    ".o###o......o###o...",
+    ".o###.........###o..",
+    ".o###.........###o..",
+    ".o###.........###o..",
+    ".o###..####...###o..",
+    ".o###..####...###o..",
+    ".o###.........###o..",
+    ".o###o.......o##oo..",
+    "..o####oooo###o.....",
+    "..o##########o......",
+    "...oo######oo.......",
+    "......oooooo........",
+    "........oo..........",
+    "...................."
+  ]
+}

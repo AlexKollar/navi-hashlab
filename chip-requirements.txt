@@ -1,0 +1,4 @@
+# Navi Hashlab runs on the Python standard library alone — hashlib
+# does the fast hashes, and MD4 (for NTLM) is carried in pure Python
+# inside the chip because OpenSSL 3 builds usually drop it. Nothing
+# to install, no optional extras.
